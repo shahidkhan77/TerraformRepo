@@ -9,12 +9,12 @@ provider "aws" {
 }
 
 #Aws s3bucket
-resource "aws_s3_bucket" "terraformsimplestorage3bucketShahid" {
-        bucket = "terraformsimplestorage3bucketShahid"
+resource "aws_s3_bucket" "terraformsimplestorage3bucket-shahid" {
+        bucket = "terraformsimplestorage3bucket-shahid"
         acl = "private"
 
         tags = {
-                Name = "terraformsimplestorage3bucketShahid"
+                Name = "terraformsimplestorage3bucket-shahid"
                 Environment = "OPS"
         }
 
